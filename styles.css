@@ -102,3 +102,8 @@ body {
   font-weight: bold;
   color: #7289da;
 }
+.verified-badge {
+  color: #7289da; /* Discord-like blue color */
+  font-size: 18px;
+  vertical-align: middle; /* Aligns it with the text */
+}
