@@ -7,58 +7,34 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <div class="profile-header">
+  <div class="container">
+    <header class="profile-header">
       <img src="your-profile-pic.jpg" alt="Profile Picture" class="profile-pic">
-      <div class="profile-info">
-        <h1>YuuJi</h1>
-        <p>ugx1 • he/him</p>
-        <div class="badges">
-          <!-- Replace with actual icons or emojis for your Discord badges -->
-          <span class="badge">🖥️</span> <!-- Example: Early Supporter -->
-          <span class="badge">🌐</span> <!-- Example: Server Booster -->
-          <span class="badge">⚡</span> <!-- Example: HypeSquad -->
-          <span class="badge">🎮</span> <!-- Customizable badges -->
+      <h1>YuuJi <span class="verified-badge">✔️</span></h1>
+      <p class="pronouns">ugx1 (he/him)</p>
+      <p class="title">🏅 Discord Bug Hunter @ Discord Testers</p>
+      <p class="location">📍 New York, USA</p>
+    </header>
+
+    <section class="status-section">
+      <div class="status-card">
+        <img src="your-profile-pic.jpg" alt="Profile Picture" class="status-pic">
+        <div>
+          <p><strong>YuuJi</strong> <span class="status-label">Offline</span></p>
+          <p class="status-detail">Last seen: 1 hour ago</p>
         </div>
       </div>
-    </div>
-  </header>
-
-  <main>
-    <section id="servers">
-      <h2>My Discord Servers</h2>
-      <ul>
-        <li>
-          <h3>Server Name 1</h3>
-          <p>Short description about the server.</p>
-          <a href="https://discord.gg/YOURSERVER1">Join Server</a>
-        </li>
-        <li>
-          <h3>Server Name 2</h3>
-          <p>Short description about the server.</p>
-          <a href="https://discord.gg/YOURSERVER2">Join Server</a>
-        </li>
-      </ul>
     </section>
 
-    <section id="social">
-      <h2>Find Me On</h2>
-      <div class="social-icons">
-        <a href="https://twitter.com/YOURUSERNAME">Twitter</a>
-        <a href="https://youtube.com/YOURUSERNAME">YouTube</a>
+    <section class="activity-section">
+      <h2>What I’m Doing RN At A Glance</h2>
+      <div class="activity">
+        <p>Currently: <span class="status">OFFLINE</span></p>
+        <p>Playing: <span class="status">NOTHING RN</span></p>
+        <p>Listening To: <span class="status">NOTHING RN</span></p>
       </div>
     </section>
-
-    <section id="contact">
-      <h2>Contact Preferences</h2>
-      <p>No unsolicited DMs, please! Feel free to reach out through my Discord servers.</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>Made by Your Name &copy; 2024</p>
-    <button id="themeToggle">Toggle Theme</button>
-  </footer>
+  </div>
 
   <script src="script.js"></script>
 </body>
